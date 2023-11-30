@@ -1,0 +1,92 @@
+i{
+    color: #008000;
+}
+
+h1,h2{
+    border: 2px solid green;
+    display: inline;
+    height: 30px;
+    background-color: aquamarine;
+}
+h3,h4{
+    border: 2px solid green;
+    display: inline-block;
+    height: 60px;
+    background-color: aquamarine;
+}
+
+a{
+    display: block;
+}
+
+.width{
+    position: relative;
+    left: 100px;
+    width: 200px;
+    margin-left: 100px;
+    border: 2px solid red;
+}
+.width1{
+    position: relative;
+    left: 100px;
+    width: 200px;
+    margin-left: 100px;
+    border: 2px solid red;
+}
+.max-width{
+    width: 500px;
+    margin: auto;
+    border: 2px solid green;
+}
+
+.box1{
+    height: 200px;
+    width: 300px;
+    border: 2px solid green;
+    position: relative;
+    left: 100px;
+    background-color: green;
+}
+.sub-box1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    left: 100px;
+    top: 45px;
+}
+
+.box2{
+    height: 200px;
+    width: 300px;
+    border: 2px solid green;
+    position: absolute;
+    left: 100px;
+    background-color: green;
+    border-radius: 0px 30px;
+}
+.sub-box2{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    border: 2px solid green;
+    background-color:burlywood
+}
+.fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 3px solid red;
+    background-color:gold
+}
